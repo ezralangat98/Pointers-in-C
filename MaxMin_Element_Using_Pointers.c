@@ -1,5 +1,6 @@
 #include<stdio.h> 
-
+//Two or more variables cannot be returned from this function at a time
+//Therefore pointers need to be used
  void minMax(int arr1[], int len, int *min, int *max){
      //using pointers to change values so that they can be 
      //refelected in the main function
